@@ -2,7 +2,7 @@
 module DropboxApi::Endpoints::Files
   class ListFolder < DropboxApi::Endpoints::Rpc
     Method      = :post
-    Path        = '/2/files/list_folder'
+    Path        = '/2//team_folder/list'
     ResultType  = DropboxApi::Results::ListFolderResult
     ErrorType   = DropboxApi::Errors::ListFolderError
 
